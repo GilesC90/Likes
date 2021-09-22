@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part II</title>
+    <link rel = "stylesheet" href="LikesP2.css">
+</head>
+<body>
+    <div id = "pageSetup">
+        <div class = "navBar flex row">
+            <div class = "siteTitle">
+                <h1>Network</h1>
+            </div>
+        </div>
+
+        <div class = "feed flex row">
+            <div class = "feedHeader">
+                <h1>Your Feed</h1>
+            </div>
+        </div>
+        
+        <div class = "container flex">
+            <div class = "col-1">
+                <div class = "aviBox">
+                    <div class = "aviContent">
+                        <img class = "profilePic" src="/Users/gilescardenas/Documents/Basic-HTML/Week2/Sept21/assignments/LikesP2/user-circle.png" alt="blank profile picture">
+                        <a href = "#">Add and avatar</a>
+                        <h1>James Doe</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-2">
+                <div class = friendBox>
+                    <div class = "headLine flex">
+                        <div class = "friendName">
+                            <h2>Neil M</h2>
+                        </div>
+                        <div class = "friendContent flex">
+                            <p><span id = "count1">9</span> like(s)</p>
+                            <button class = "like Btn1" onclick="addLike('#count1')">Like</button>
+                        </div>
+                    </div>
+                    <div class = "postLine">
+                        <p>I just set up this discord bot, let me</p>
+                        <p>know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+
+
+                <div class = "friendBox">
+                    <div class = "headLine flex">
+                        <div class = "friendName">
+                            <h2>Nichole K</h2>
+                        </div>
+                        <div class = "friendContent flex">
+                            <p><span id = "count2">12</span> like(s)</p>
+                            <button class = "like Btn2" onclick="addLike('#count2')">Like</button>
+                        </div>
+                    </div>
+                    <div class = "postLine">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+
+
+                <div class = "friendBox">
+                    <div class = "headLine flex">
+                        <div class = "friendName">
+                            <h2>Jim R</h2>
+                        </div>
+                        <div class = "friendContent flex">
+                            <p><span id = "count3">9</span> like(s)</p>
+                            <button class = "like Btn3" onclick="addLike('#count3')">Like</button>
+                        </div>
+                    </div>
+                    <div class = "postLine">
+                        <p>I can't stop listening to the <a href="#">new album</a>.</p>
+                        <p>Who els is liking it?</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src = "LikesP2.js"></script>
+</body>
+</html>

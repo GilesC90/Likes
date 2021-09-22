@@ -1,0 +1,106 @@
+#pageSetup {
+    width: 1000px;
+    height: 100vh;
+    margin-left: 400px;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {   
+    align-items: center;
+}
+
+.navBar {
+    width: 100%;
+    height: 75px;
+    justify-content: left;
+    background-color: black;
+    color: white;
+}
+
+.siteTitle {
+    margin-left: 15px;
+}
+
+.feed {
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+.container {
+    height: 100%;
+}
+.col-1 {
+    flex: 1;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.aviBox {
+    height: 40%;
+    width: 90%;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+.aviContent {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.profilePic {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.aviBox a {
+    display: block;
+    margin-left: 30px;
+}
+
+.aviBox h1 {
+    display: block;
+}
+
+.col-2 {
+    flex: 3;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.friendBox  {
+    height: 20%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.like {
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+}
+
+.headLine {
+    justify-content: space-between;
+}
+
+.friendContent {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.headLine, .postLine {
+    margin-left: 20px;
+}
